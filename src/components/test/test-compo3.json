@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_test_test_compo3s",
+  "info": {
+    "displayName": "TestCompo3"
+  },
+  "options": {},
+  "attributes": {
+    "string": {
+      "type": "string"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blah.blah"
+    }
+  }
+}
